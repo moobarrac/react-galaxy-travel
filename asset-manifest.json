@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-galaxy-travel/static/css/main.83246966.css",
+    "main.js": "/react-galaxy-travel/static/js/main.11de409e.js",
+    "static/media/space.mp4": "/react-galaxy-travel/static/media/space.41584ed51700d249bf73.mp4",
+    "index.html": "/react-galaxy-travel/index.html",
+    "main.83246966.css.map": "/react-galaxy-travel/static/css/main.83246966.css.map",
+    "main.11de409e.js.map": "/react-galaxy-travel/static/js/main.11de409e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83246966.css",
+    "static/js/main.11de409e.js"
+  ]
+}
