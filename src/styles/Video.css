@@ -1,0 +1,40 @@
+.hero{
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+}
+#video{
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.hero .content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  top: 40vh;
+}
+.hero .content h1{
+  color: rgb(16, 113, 143);
+  font-size: 7rem;
+}
+.hero .content p{
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 1rem;
+}
+.hero .content button:first-child{
+  margin: 1rem;
+  color: #ffc107;
+  background-color: #05001b;
+}
+.hero .content button:nth-child(2){
+  background-color: #ffc107;
+  color: #05001b;
+}

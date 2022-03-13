@@ -1,0 +1,82 @@
+.navbar{
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background: #05001bc0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 1;
+}
+.nav-links{
+  display: flex;
+}
+.nav-links li{
+  padding: 0 1rem;
+}
+.navbar-btn{
+  display: none;
+  color: #FFC107;
+}
+.navbar-btn:hover{
+  transform: rotate(36000deg);
+  transition: 20s transform linear;
+}
+.navbar-small.show{
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #05001bc0;
+  z-index: 9;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-small.hide{
+  display: none;
+}
+.navbar-small .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: red;
+  font-size: 4rem;
+  background-color: transparent;
+  padding: 0;
+}
+.navbar-small.show .close:hover {
+  background-color: transparent;
+  width: max-content;
+  padding: 0;
+}
+
+.navbar-small.show>* {
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.navbar-small.show>*:hover {
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 50px;
+  transform: scale(1.2);
+  width: 60%;
+}
+
+
+@media (max-width: 800px) {
+  .nav-links{
+    display: none;
+  }
+  .navbar-btn {
+    display: block;
+  }
+}
